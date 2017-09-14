@@ -1,0 +1,10 @@
+ glove_dir : '../animesh/glove/'
+ data_file : 'data.txt'
+ sequence_length: 50
+ num_classes: 2
+ embedding_size : 100
+ vocab_length : 40000
+ learning_rate : 0.0005
+ dropout : 0.4
+ num_filters: 30
+ 
