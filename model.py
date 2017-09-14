@@ -57,8 +57,8 @@ if __name__ == '__main__':
 	# Data loading params
 	tf.flags.DEFINE_float("dev_test_percentage", .1, "Percentage of the training data to use for testing")
 	tf.flags.DEFINE_float("dev_validation_percentage", .1, "Percentage of the training data to use for validation")
-	tf.flags.DEFINE_string("positive_data_file", "./data/pos.txt", "Data source for the positive data.")
-	tf.flags.DEFINE_string("negative_data_file", "./data/neg.txt", "Data source for the negative data.")
+	tf.flags.DEFINE_string("positive_data_file", "./pos.txt", "Data source for the positive data.")
+	tf.flags.DEFINE_string("negative_data_file", "./neg.txt", "Data source for the negative data.")
 
 	tf.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")
 	tf.flags.DEFINE_integer("num_epochs", 20, "Number of training epochs (default: 200)")
