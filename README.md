@@ -12,4 +12,8 @@ Model details -
   30 filters height ;
   dropout-0.4 ;
   word vecs - pretrained, Glove, 50-dimensions;
-  Adam optimizer
+  Adam optimizer ; 
+  learning rate - 0.0005
+
+Most of the hyper-parameters can be changed in the config.yml file.
+
