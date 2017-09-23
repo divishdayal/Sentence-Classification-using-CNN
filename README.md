@@ -17,5 +17,7 @@ Model details -
   Adam optimizer ; 
   learning rate - 0.0005
 
+Also, Batch Normalisation code has been written, but commented out as in this case, it didn't improve on the results without it.
+
 Most of the hyper-parameters can be changed in the config.yml file.
 
