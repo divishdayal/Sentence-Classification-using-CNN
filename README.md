@@ -4,6 +4,8 @@ This implements the Code for the paper Convolutional Neural Networks for Sentenc
 Runs the model on Pang and Lee's movie review dataset (MR in the paper). The code is implemented in tensorflow and datasets have been
 included in the root directory as pos.txt and neg.txt
 
+accuracy of the model - ~78%
+
 To run the model - 
     python model.py
 
