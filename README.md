@@ -11,12 +11,12 @@ To run the model -
 > python model.py
 
 ## Model details 
-  3 convolution/filter sizes(3,4,5) ;
-  30 filters height ;
-  dropout-0.4 ;
-  word vecs - pretrained, Glove, 50-dimensions;
-  Adam optimizer ; 
-  learning rate - 0.0005
+ * 3 convolution/filter sizes(3,4,5) ;
+ * 30 filters height ;
+ * dropout-0.4 ;
+ * word vecs - pretrained, Glove, 50-dimensions;
+ * Adam optimizer ; 
+ * learning rate - 0.0005
 
 Also, Batch Normalisation code has been written, but commented out as in this case, it didn't improve on the results without it.
 
