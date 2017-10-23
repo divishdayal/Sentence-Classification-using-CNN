@@ -6,10 +6,11 @@ included in the root directory as pos.txt and neg.txt
 
 accuracy of the model - ~78%
 
+## Run
 To run the model - 
-    python model.py
+> python model.py
 
-Model details - 
+## Model details 
   3 convolution/filter sizes(3,4,5) ;
   30 filters height ;
   dropout-0.4 ;
