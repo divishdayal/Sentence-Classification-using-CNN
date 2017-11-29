@@ -22,3 +22,5 @@ Also, Batch Normalisation code has been written, but commented out as in this ca
 
 Most of the hyper-parameters can be changed in the config.yml file.
 
+Find more info at this[this](https://divishd.wordpress.com/2017/08/24/convolutional-neural-networks-cnn-applications-in-nlp-for-sentence-classification/) blog post.
+
